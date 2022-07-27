@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumble</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-xl">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid language-nav-dropdown">
+                 <div class="left-section d-flex">   
+                    <div class="header-logo">
+                    <a class="navbar-brand" href="#">
+                      <img src="assets/PngItem_866189.png" class="logo-img">
+                    </a>
+                    </div>
+                  <ul class="navbar-nav mt-auto ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          English (India)
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item lang-dropdown" href="#">English (UK)</a></li>
+                          <li><a class="dropdown-item lang-dropdown" href="#">English (USA)</a></li>
+                          <li><a class="dropdown-item lang-dropdown" href="#">Nederlands</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+                </div>   
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto" >
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">The Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">The App</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ambassadors</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">The Buzz</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <section class="login-section ">
+          <div class="inner-login-section d-none d-lg-block">
+            <div class="login-section-contents">
+            <h2 class="mt-auto">Make the first move</h2>
+            <p>Start meeting new people in your area! If you already have an account, sign in to use Bumble on the web.</p>
+            <div class="btns">
+              <button type="button" class="btn btn-warning text-white fw-bold">Join</button>
+              <button type="button" class="btn btn-outline-warning text-black fw-bold">Sign In</button>
+            </div>
+          </div>
+          </div>
+
+          <div class="inner-login-section d-block d-lg-none">
+            <div class="login-section-contents">
+            <h2 class="mt-auto">Make the first move</h2>
+            <div class="btns">
+              <button onclick="myFun()" type="button" class="btn btn-warning text-white fw-bold">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16">
+                <path d="m10.213 1.471.691-1.26c.046-.083.03-.147-.048-.192-.085-.038-.15-.019-.195.058l-.7 1.27A4.832 4.832 0 0 0 8.005.941c-.688 0-1.34.135-1.956.404l-.7-1.27C5.303 0 5.239-.018 5.154.02c-.078.046-.094.11-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.697 3.697 0 0 0 3.5 5.02h9c0-.75-.208-1.44-.623-2.072a4.266 4.266 0 0 0-1.664-1.476ZM6.22 3.303a.367.367 0 0 1-.267.11.35.35 0 0 1-.263-.11.366.366 0 0 1-.107-.264.37.37 0 0 1 .107-.265.351.351 0 0 1 .263-.11c.103 0 .193.037.267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264Zm4.101 0a.351.351 0 0 1-.262.11.366.366 0 0 1-.268-.11.358.358 0 0 1-.112-.264c0-.103.037-.191.112-.265a.367.367 0 0 1 .268-.11c.104 0 .19.037.262.11a.367.367 0 0 1 .107.265c0 .102-.035.19-.107.264ZM3.5 11.77c0 .294.104.544.311.75.208.204.46.307.76.307h.758l.01 2.182c0 .276.097.51.292.703a.961.961 0 0 0 .7.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182c0 .276.097.51.292.703a.972.972 0 0 0 .71.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76c.291 0 .54-.103.749-.308.207-.205.311-.455.311-.75V5.365h-9v6.404Zm10.495-6.587a.983.983 0 0 0-.702.278.91.91 0 0 0-.293.685v4.063c0 .271.098.501.293.69a.97.97 0 0 0 .702.284c.28 0 .517-.095.712-.284a.924.924 0 0 0 .293-.69V6.146a.91.91 0 0 0-.293-.685.995.995 0 0 0-.712-.278Zm-12.702.283a.985.985 0 0 1 .712-.283c.273 0 .507.094.702.283a.913.913 0 0 1 .293.68v4.063a.932.932 0 0 1-.288.69.97.97 0 0 1-.707.284.986.986 0 0 1-.712-.284.924.924 0 0 1-.293-.69V6.146c0-.264.098-.491.293-.68Z"/>
+              </svg> Get Bumble</button>
+            </div>
+          </div>
+          </div>
+        </section> 
+
+        <section>
+          <div class="section-2-heading ">
+            <h2 class="text-center pt-5 pb-2 ">Connect with people you know but haven't met yet</h2>
+          </div>
+        </section>
+
+        <section class="row container-fluid m-0">
+          <div class="card col-md-4">
+            <img class="card-img-top mb-3" src="assets/asset-0.webp" alt="Card image cap">
+            <div class="card-img-overlay">
+              <h5 class="card-title bg-light p-2 ">Bumble Date</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">On Bumble, women make the first move. We’re leveling the playing field and changing the dynamics of dating. We believe relationships should begin with respect and equality.</p>
+              <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>
+            </div>
+          </div>
+
+          <div class="card col-md-4">
+            <img class="card-img-top mb-3" src="assets/asset-1.webp" alt="Card image cap">
+            <div class="card-img-overlay">
+              <h5 class="card-title bg-light p-2 ">Bumble Bizz</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Career opportunities come about when you expand your network. On Bumble Bizz, you can pursue a career change, meet team members, or become a mentor.</p>
+              <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>
+            </div>
+          </div>
+          <div class="card col-md-4">
+            <img class="card-img-top mb-3" src="assets/asset-2.webp" alt="Card image cap">
+           <div class="card-img-overlay">
+            <h5 class="card-title bg-light p-2 ">Bumble BFF</h5>
+          </div> 
+            <div class="card-body ">
+              <p class="card-text">Whether you’re new to a city or looking to expand your social circle, Bumble BFF is a simplified way to create meaningful friendships.</p>
+             <div class="card-btn d-flex justify-content-center mb-"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>
+            </div>
+          </div>
+        </section>
+  </div>  
+      <div class="container-xl">
+        <section class="section3 d-flex justify-content-center align-items-center d-xl-none my-auto">
+          <div class="inner-section3 d-none d-md-block">
+            <h3 class="text-center p-1">Why Bumble?</h3>
+            <p class="fs-6 text-center">Bumble was first founded to challenge the antiquated rules of dating.
+               Now, Bumble empowers users to connect with confidence whether dating, networking, or meeting friends online. 
+               We’ve made it not only necessary but acceptable for women to make the first move, shaking up outdated gender norms.
+                We prioritize kindness and respect, providing a safe online community for users to build new relationships.</p>
+                <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>    
+          </div>
+          
+        </section>
+          <div class="inner-section3 d-block d-md-none my-auto  w-100">
+            <h3 class="text-center p-1">Why Bumble?</h3>
+            <p class="fs-6 text-center">Bumble was first founded to challenge the antiquated rules of dating.
+               Now, Bumble empowers users to connect with confidence whether dating, networking, or meeting friends online. 
+               We’ve made it not only necessary but acceptable for women to make the first move, shaking up outdated gender norms.
+                We prioritize kindness and respect, providing a safe online community for users to build new relationships.</p>
+                <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>    
+          </div> 
+
+
+        <section class="section3-copy d-none d-xl-block">
+         <div class="inner-copy">
+          <div class="inner-section3-copy">
+            <h3 class="p-1">Why Bumble?</h>
+              <p class="fs-6">Bumble was first founded to challenge the antiquated rules of dating.
+                Now, Bumble empowers users to connect with confidence whether dating, networking, or meeting friends online. 
+               We’ve made it not only necessary but acceptable for women to make the first move, shaking up outdated gender norms.
+                We prioritize kindness and respect, providing a safe online community for users to build new relationships.</p>
+                <div class="card-btn mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">Learn More</a></div>    
+          </div>
+        </div>  
+        </section>
+        <div class="h-25"></div>
+
+
+        <!--                Carousel                      -->
+        
+        <section class="section-4 ">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/asset-7.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block  bg-light text-dark">
+                  <h2>Make the First Move</h2>
+                  <p>Women talk first to set an equal tone from the start.</p>
+                  <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">HERE'S HOW</a></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/asset-8.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block bg-light text-dark">
+                  <h2>Kiss Catfishing Goodbye</h2>
+                  <p>Bumble Photo Verification is a promise that the person you’re talking with is who they say they are. Look for the blue check mark on other users’ profiles.</p>
+                  <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">FIND OUT MORE</a></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/asset-6.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block bg-light text-dark">
+                  <h2>We Love Success Stories</h2>
+                  <p>Nothing makes us happier than hearing from our users who have found love, friendship, or professional success on Bumble.</p>
+                  <div class="card-btn d-flex justify-content-center mb-4"> <a href="#" class="btn btn-warning text-white fw-bold">READ THE STORIES</a></div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon d-none d-md-block" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon d-none d-md-block" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </div>  
+
+        <div class="gap"></div>
+
+        <div class="indicators d-flex justify-content-center">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+        </div>
+
+        <section class="container">
+            <h2 class="d-flex justify-content-center">Follow<a class="nav-link" href="#">&NonBreakingSpace;@Bumble_india</a></h2>
+        </section>
+
+        <div class="gap"></div>
+
+        <section class="container">
+        <div class="row">
+          <div class="col-2 col-md-4"></div>
+          <div class="appstore col-8 col-md-4 d-flex justify-content-center">
+            <img src="assets/asset 3.octet-stream"  class="img-fluid" alt="">
+          </div>
+          <div class="col-2 col-md-4"></div>
+        </div>
+      </section>
+
+  
+      <footer class="h-50">
+        <div class="container">
+        <div class="row footer-section">
+          <div class="col-3 col-md-3"></div>
+          <div class="col-6">
+               <div class="row inner-footer-section">
+                 <div class="inner-logo col-12 col-md-6 d-flex justify-content-center">
+                   <img src="assets/6102dc253de48b00044eb5b1.png" class="footer-logo-img img-fluid max-width:100%" alt="">
+                 </div>
+     
+                 <div class="footer-accounts col-12 col-md-6 d-flex align-items-center ">
+                   <div class="row">
+                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram col-3" viewBox="0 0 16 16">
+                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                   </svg>
+                   <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-facebook col-3" viewBox="0 0 16 16">
+                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                   </svg>
+                   <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-twitter col-3" viewBox="0 0 16 16">
+                     <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                   </svg>
+                   <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-pinterest col-3" viewBox="0 0 16 16">
+                     <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                   </svg>
+                 </div>
+                 </div>
+               </div>
+          </div>     
+          <div class="col-3 col-md-3"></div>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="list-group-flush d-flex flex-wrap mt-5">
+          <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end ">
+          <li class="list-group-item"><a href="" class="nav-link pe-3">FAQ</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3">Events</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3">Contact Us</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3">Guidelines</a></li>
+          </div>
+          <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+          <li class="list-group-item"><a href="" class="nav-link pe-3 ">Careers</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3 ">Investors</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3">Modern Slavery Act Statement</a></li>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+          <li class="list-group-item"><a href="" class="nav-link pe-3 ">Terms & Conditions</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3 ">Privacy Policy</a></li>
+          <li class="list-group-item"><a href="" class="nav-link pe-3 ">Manage Cookies</a></li>
+          </div>
+        </ul>
+      </div>  
+      <div class="footer-caption">
+
+        <div class="text-center text-secondary p-3">
+          © 2022 Bumble | All Rights Reserved:
+        </div>
+
+      </div>
+      </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

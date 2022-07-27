@@ -1,0 +1,187 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.logo-img{
+    width:188px;
+    height:32px;
+}
+.navbar-nav a{
+    color: black;
+}
+.navbar > .language-nav-dropdown{
+    align-items: baseline;
+}
+.language{
+    font-size: 0.8rem;
+    color: black;
+}
+.lang-dropdown{
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 7rem;
+}
+.navbar-toggler {
+    padding: 0;
+    color: black;
+    border: none;
+}
+.login-section{
+    width: 100%;
+    height: 89vh;
+    background-image: url(assets/asset-4.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-login-section{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-section-contents{
+    padding: 1.5rem 1rem;
+    line-height: 2rem;
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.section3{
+    width: 100%;
+    height: 64vh;
+    background-position: center;
+    background-image: url(assets/asset-5.webp);
+    background-size: cover;
+}
+.inner-section3{
+    background-color: white;
+    width: 70%;
+    padding: 1.5rem;
+}
+.section3-copy{
+    width: 100%;
+    height: 64vh;
+    background-position: left;
+    background-image: url(assets/asset-5.webp);
+    background-size: 58rem 47rem;
+    background-repeat: no-repeat;
+}
+.inner-section3-copy{
+    background-color: white;
+    width: 50%;
+    padding: 1.5rem;
+}
+.inner-section3-copy p{
+    padding-top: 1.5rem;
+}
+.inner-copy{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.section4{
+    width: 100%;
+    height: 120vh;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+}
+.gap{
+    height: 8rem;
+}
+.appstore img{
+    max-width: 160px;
+}
+.carousel-caption {
+    top: 40%;
+    bottom: auto;
+}
+
+
+
+
+@media (max-width: 2560px){
+    html{
+     font-size: 16px;
+    }
+    .logo-img{
+         width: 108px;
+         height: 22px;
+    }
+
+    .inner-login-section{
+        max-width: 50%;
+    }
+ }
+@media (max-width: 1440px){
+    html{
+     font-size: 14px;
+    }
+    .logo-img{
+         width: 108px;
+         height: 22px;
+    }
+
+    .inner-login-section{
+        max-width: 70%;
+    }
+ }
+@media (max-width: 1024px){
+   html{
+    font-size: 14px;
+   }
+    .logo-img{
+        width: 108px;
+        height: 22px;
+    }
+    .section3 {
+        max-width:100%;
+        justify-content: center !important;
+        background-size: cover;
+    } 
+}
+@media (max-width: 768px){
+    html{
+        font-size: 12px;
+       }
+    .logo-img{
+        width: 108px;
+        height: 22px;
+    }
+    .inner-login-section{
+        max-width: 90%;
+    }
+    .carousel-caption{
+        position: static;
+    }
+}
+@media (max-width: 320px){
+    html{
+        font-size: 10px;
+       }
+    .logo-img{
+        width: 79px;
+        height: 19px;
+    }
+
+    .container-fluid, .container-lg{
+        --bs-gutter-x: 0.3rem;
+    }
+    
+    .inner-login-section{
+        max-width: 90%;
+    }
+}
